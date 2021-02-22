@@ -1,0 +1,88 @@
+@charset "UTF-8";
+h2 { font-family: "Lato", sans-serif; font-weight: 600; font-size: 18px; }
+
+h3 { font-family: "Lato", sans-serif; font-weight: 500; font-size: 17px; }
+
+h4 { font-family: "Lato", sans-serif; font-weight: 500; font-size: 17px; margin: 0; }
+
+.container { max-width: 1200px; margin: auto; min-height: 100vh; position: relative; }
+
+body { margin-bottom: 0; height: 100%; overflow: hidden; }
+
+.navbar { display: -ms-flexbox; display: flex; -ms-flex-align: end; align-items: flex-end; height: 170px; padding-top: 15px; background-color: white; text-transform: uppercase; font-family: "Lato", sans-serif; font-size: 18px; position: -webkit-sticky; position: sticky; width: 1200px; border-bottom: 1px solid #b8b8b8; top: 0; }
+
+.navbar-logo-home { -ms-flex: 1; flex: 1; }
+
+.navbar-logo-home .navbar-logo { width: 145px; height: 150px; background-image: url(../images/logotyp.png); background-size: cover; margin: 50px 10px 20px 40px; }
+
+.navbar-buttons { -ms-flex: 2; flex: 2; width: 800px; -ms-flex-align: end; align-items: flex-end; margin-bottom: -8px; }
+
+.navbar-buttons .link { margin: 0; padding: 10px 50px; }
+
+.navbar-buttons .link-lg { margin: 0px; padding: 10px 10px; }
+
+.navbar-buttons .link-lg-pl { margin-left: 100px; }
+
+.navbar-buttons a { text-decoration: none; color: #8a0600; }
+
+.navbar-buttons .link:hover { color: black; background-color: #f3f3f3; border-bottom: 1px solid #4e4e4e; }
+
+.menu-list li { display: inline; }
+
+.nav-offer { display: inline-block; }
+
+.dropdown-menu { display: none; position: absolute; background-color: #fdfdfd; font-size: 16px; text-align: left; width: 500px; margin-top: 11px; }
+
+.dropdown-menu .button-border { padding: 10px 20px; }
+
+.dropdown-menu .button-border:hover { background-color: #f3f3f3; border-bottom: 1px solid #4e4e4e; }
+
+.dropdown-menu .button-border:hover a { color: black; }
+
+.nav-offer:hover .dropdown-menu { display: block; }
+
+.about-1 { width: 1200px; height: 300px; background-image: url(../images/tło1.png); background-size: cover; }
+
+.about-1-1 { width: 700px; padding: 30px; }
+
+.about-2 { width: 1200px; height: 500px; background-image: url(../images/tło2.png); color: white; display: -ms-flexbox; display: flex; }
+
+.about-2-1 { -ms-flex: 2; flex: 2; padding: 20px 30px; }
+
+.about-2-1 ul { padding-left: 15px; }
+
+.about-2-2 { -ms-flex: 1; flex: 1; padding: 20px 30px; }
+
+.offer-title { -ms-flex: 20%; flex: 20%; color: #8a0600; padding: 20px 15px 20px 30px; }
+
+.offer-content { -ms-flex: 80%; flex: 80%; padding: 20px 30px 20px 0px; }
+
+.offer-1, .offer-3, .offer-5 { width: 1200px; min-height: 300px; display: -ms-flexbox; display: flex; background-color: #fefefe; }
+
+.offer-1 ul, .offer-3 ul, .offer-5 ul { padding-left: 15px; }
+
+.offer-1 ul li, .offer-3 ul li, .offer-5 ul li { padding: 4px 0; }
+
+.offer-2, .offer-4, .offer-6 { width: 1200px; min-height: 300px; display: -ms-flexbox; display: flex; background-color: #f3f3f3; }
+
+.offer-2 ul, .offer-4 ul, .offer-6 ul { padding-left: 15px; }
+
+.offer-2 ul li, .offer-4 ul li, .offer-6 ul li { padding: 4px 0; }
+
+.contact { width: 1200px; height: 500px; background-image: url(../images/tło3.png); display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
+
+.contact ul li a { text-decoration: none; color: black; display: inline; }
+
+.contact-logo { -ms-flex: 20%; flex: 20%; }
+
+.contact-logo img { height: 150px; margin-left: 30px; }
+
+.contact-content { -ms-flex: 80%; flex: 80%; }
+
+.contact-content .contact-list li { display: inline-block; padding: 0px 25px; }
+
+.contact-content .text { padding: 20px 40px; }
+
+.footer { width: 1200px; background-color: #4b4b4b; text-align: center; bottom: 0; position: absolute; }
+
+.footer h4 { margin: 0px; padding: 35px 0px; }
