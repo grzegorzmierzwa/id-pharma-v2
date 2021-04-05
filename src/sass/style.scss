@@ -1,17 +1,19 @@
 // fonts
-$lato: "Lato", sans-serif;
+$lato: 'Open Sans', sans-serif;
 
 //text
 h2 {
   font-family: $lato;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 18px;
+  letter-spacing: 1px;
 }
 
 h3 {
   font-family: $lato;
   font-weight: 500;
   font-size: 17px;
+  letter-spacing: 1px;
 }
 
 h4 {
@@ -19,6 +21,7 @@ h4 {
   font-weight: 500;
   font-size: 17px;
   margin: 0;
+  letter-spacing: 1px;
 }
 
 //body
@@ -37,7 +40,7 @@ h4 {
 body {
   margin-bottom: 0;
   height: 100%;
-  overflow: hidden;
+  // overflow: hidden;
 }
 
 //active container
@@ -61,6 +64,7 @@ body {
   text-transform: uppercase;
   font-family: $lato;
   font-size: 18px;
+  font-weight: 700;
   position: sticky;
   width: 1200px;
   border-bottom: 1px solid rgb(184, 184, 184);
@@ -157,7 +161,7 @@ body {
 
 .about-1 {
   width: 1200px;
-  height: 300px;
+  height: 350px;
   background-image: url(../images/tło1.png);
   background-size: cover;
 }
@@ -165,11 +169,15 @@ body {
 .about-1-1 {
   width: 700px;
   padding: 30px;
+
+  h3 {
+    margin: 0;
+  }
 }
 
 .about-2 {
   width: 1200px;
-  height: 500px;
+  height: 600px;
   background-image: url(../images/tło2.png);
   // background-size: cover;
   color: white;
@@ -177,7 +185,7 @@ body {
 }
 
 .about-2-1 {
-  flex: 2;
+  flex: 65%;
   padding: 20px 30px;
   
   ul {
@@ -186,7 +194,7 @@ body {
 }
 
 .about-2-2 {
-  flex: 1;
+  flex: 35%;
   padding: 20px 30px;
 }
 
@@ -207,9 +215,9 @@ body {
 .offer-3,
 .offer-5 {
   width: 1200px;
-  min-height: 300px;
+  min-height: 100px;
   display: flex;
-  background-color: rgb(254, 254, 254);
+  background-color: #f3f3f3;
 
   ul {
     padding-left: 15px;
@@ -224,7 +232,7 @@ body {
 .offer-4,
 .offer-6 {
   width: 1200px;
-  min-height: 300px;
+  min-height: 100px;
   display: flex;
   background-color: #f3f3f3;
 
@@ -237,12 +245,20 @@ body {
   }
 }
 
+.offer-3,
+.offer-5 {
+  h3 {
+    padding-right: 200px;
+    letter-spacing: 1.5px;
+  }
+}
+
 //contact
 
 .contact {
   width: 1200px;
   height: 500px;
-  background-image: url(../images/tło3.png);
+  background-color: #f3f3f3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -255,21 +271,24 @@ body {
 
 }
 
-.contact-logo {
-  flex: 20%;
+// .contact-logo {
+//   flex: 20%;
 
-  img {
-    height: 150px;
-    margin-left: 30px;
-  }
-}
+//   img {
+//     height: 150px;
+//     margin-left: 30px;
+//   }
+// }
 
 .contact-content {
-  flex: 80%;
+  // flex: 80%;
+  ul {
+    padding-left: 100px;
+  }
 
   .contact-list li {
     display: inline-block;
-    padding: 0px 25px;
+    padding: 25px 25px;
   }
   
   .text {
